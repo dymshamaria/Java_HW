@@ -1,6 +1,6 @@
-package HW;
+package hw;
 
-public class HW2 {
+public class hw2 {
     public static void main(String[] args) {
 
         //task_1

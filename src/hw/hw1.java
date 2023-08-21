@@ -1,8 +1,6 @@
-package HW;
+package hw;
 
-import com.sun.tools.javac.Main;
-
-public class HW1 {
+public class hw1 {
     public static void main(String[] args) {
         System.out.println("3\n"  + "2\n" + "1\n" + "Поехали!!!");
         System.out.println("\n____888888______________________________\n" +

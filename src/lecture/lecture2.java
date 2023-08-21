@@ -1,6 +1,6 @@
-package Lecture;
+package lecture;
 
-public class Lecture2 {
+public class lecture2 {
     public static void main(String[] args) {
         int lancers = 120;
         int doppelsoldner = 30;
