@@ -104,22 +104,73 @@ public class lecture4 {
 //        } while (counter < 5);
 
 
-        int min = 0;
-        int max = 100;
-        int myNumber = 15;
+//        int min = 0;
+//        int max = 100;
+//        int myNumber = 15;
+//
+//        int guess;
+//        do {
+//            guess = (min + max) / 2;
+//            System.out.print("I'm guessing ");
+//            System.out.println(guess);
+//
+//            if (guess < myNumber) {
+//                min = guess;
+//            } else {
+//                max = guess;
+//            }
+//        } while (guess != myNumber);
 
-        int guess;
-        do {
-            guess = (min + max) / 2;
-            System.out.print("I'm guessing ");
-            System.out.println(guess);
 
-            if (guess < myNumber) {
-                min = guess;
-            } else {
-                max = guess;
-            }
-        } while (guess != myNumber);
+//        int number = 10;
+//
+//        System.out.print("Число " + number + " делится на 5");
+//        if (number % 5 == 0) {
+//            System.out.print(" без остатка");
+//            if (number % 2 == 0) {
+//                System.out.print(" и оно четное");
+//            } else {
+//                System.out.println(" и оно нечетное");
+//            }
+//        } else {
+//            System.out.println(" с остатком");
+//        }
+
+//        for (int i = ' '; i < 255; i++) {
+//            System.out.println(i + " " + (char) i);
+//        }
+
+//        int[] variable1 = {4, 5, 6, 2};
+//
+//        System.out.println(Arrays.toString(variable1));
+//        int max = variable1[0];
+//        for (int i = 1; i < variable1.length; i++) {
+//            if (max < variable1[i]) {
+//                max = variable1[i];
+//            }
+//        }
+//        System.out.println("max value is " + max);
+
+//        int[] arr = {1, 2, 3, 4};
+//
+//        int max = arr[0];
+//        for (int i = 1; i < arr.length; i++) {
+//            if (max < arr[i]) {
+//                max = arr[i];
+//            }
+//        }
+//        System.out.println(max);
+
+        //or
+
+//        System.out.println(Arrays.toString(variable1));
+//        max = Integer.MIN_VALUE;
+//        for (int i = 0; i < variable1.length; i++) {
+//            if (max < variable1[i]) {
+//                max = variable1[i];
+//            }
+//        }
+//        System.out.println("max value is " + max);
 
 
     }
