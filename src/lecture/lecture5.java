@@ -49,7 +49,32 @@ public class lecture5 {
 //            System.out.println("true!");
 //        }
 
+//        ____________________________________________________
 
+//        int[] arr1 = {1,2,3};
+//        int[] arr2 = {1,2,3};
+//
+//        System.out.println(Arrays.equals(arr1,arr2));
+
+//        int[][] arr1 = {
+//                {1, 2, 3},
+//                {11, 22, 33},
+//                {111, 222, 333, 444, 555},
+//                {111, 333},
+//                {111},
+//        };
+
+//        System.out.println(arr1[1][2]);
+
+//        int max = Integer.MIN_VALUE;
+//        for (int i = 0; i < arr1.length; i++) {
+//            for (int j = 0; j < arr1[i].length; j++) {
+//                if (arr1[i][j] > max) {
+//                    max = arr1[i][j];
+//                }
+//            }
+//        }
+//        System.out.println(max);
 
     }
 }
