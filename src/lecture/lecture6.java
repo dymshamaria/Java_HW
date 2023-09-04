@@ -5,12 +5,17 @@ import java.util.Locale;
 
 public class lecture6 {
 
-    public static void log(String a){
+    public static void log(String a) {
         System.out.println(a);
     }
 
     public static int sum(int a, int b) {
         return a + b;
+    }
+
+    static void sum1(int first, int second){
+        int sum1 = first + second;
+        System.out.println("sum1= " + sum1);
     }
 
 //    public static int sum(int a, int b) {
@@ -50,10 +55,15 @@ public class lecture6 {
 //        int c = a + b;
 //        String str = "Edward";
 //        str.toLowerCase(Locale.ROOT);
-//        System.out.println(str);
-
-        System.out.println(sum(10,30));
-
-        log("Ed");
+//        System.out.println(str)
+//        System.out.println(sum(10, 30));
+//
+//        log("Ed");
+//
+//        int[] arr1 = new int[]{1, 2, 3};
+//        System.out.println(arr1);
+//        System.out.println("arr1= " + Arrays.toString(arr1));
+//
+//        sum1(1,2);
     }
 }

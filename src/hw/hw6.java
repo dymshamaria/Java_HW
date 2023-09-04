@@ -1,5 +1,7 @@
 package hw;
 
+import java.util.Scanner;
+
 public class hw6 {
     public static void main(String[] args) {
 
@@ -82,6 +84,28 @@ public class hw6 {
 //            }
 //            System.out.println();
 //        }
+
+        //8
+        System.out.println("Введите целое число: ");
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+//        int n = 9;
+
+        int[] fibonacci = new int[n];
+
+        fibonacci[0] = 0;
+        fibonacci[1] = 1;
+
+        for (int i = 2; i < n; i++) {
+            fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+        }
+//        System.out.print(n);
+
+        for (int num : fibonacci) {
+            System.out.print(num + " ");
+        }
     }
 }
 
