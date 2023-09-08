@@ -1,4 +1,4 @@
-package lecture;
+package lecture.lecture7;
 
 public class Car {
     String model;

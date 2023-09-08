@@ -5,7 +5,7 @@ public class Salary {
         int sum = 0;
         for (int i = 0; i < employees.length; i++) {
             Employee employee = employees[i];
-            sum = sum + employees[i].salary;
+            sum = sum + employee.salary;
         }
         return sum;
     }

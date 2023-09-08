@@ -1,4 +1,6 @@
-package lecture;
+package lecture.lecture7;
+
+import lecture.lecture7.Point;
 
 public class Line {
 
