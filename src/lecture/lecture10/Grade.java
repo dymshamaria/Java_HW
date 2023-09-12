@@ -14,7 +14,7 @@
 //            System.out.println("Will use 5");
 //            this.value = null;
 //        } else {
-//            this.value = value;
+//            this.value = grade;
 //        }
 //    }
 //
