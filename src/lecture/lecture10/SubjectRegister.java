@@ -2,7 +2,7 @@
 //
 //public class SubjectRegister {
 //
-//    private Row[] rows;
+////    private Row[] rows;
 //
 //    private boolean locked = true;
 //
@@ -70,4 +70,3 @@
 //        return null;
 //    }
 //}
-//
